@@ -12,9 +12,9 @@ class ArrayStack {
 	public void show() {
 		System.out.println("Current Stack Element: ");
 		for (int x = capacity - 1; x >= 0; x--) {
-			// for (int y = capacity - 1; y >= 0; y--) {
-			// 	System.out.println("Stack[" + x + "]  =  " + arr[y]);
-			// }
+			 for (int y = capacity - 1; y >= 0; y--) {
+			 	System.out.println("Stack[" + x + "]  =  " + arr[y]);
+			 }
 		
 			System.out.println("Stack[" + x + "]  =  " + arr[x]);
 
